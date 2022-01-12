@@ -1,0 +1,32 @@
+{
+  "name": "@stivncastillo/pimpi-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/stivncastillo"
+  },
+  "version": "0.0.1",
+  "description": "UI react components",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Stiven Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "rollup": "^2.63.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "typescript": "^4.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
